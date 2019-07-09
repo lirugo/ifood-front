@@ -14,7 +14,10 @@ import ListOfFood from './components/ListOfFood.vue'
 import ListOfEatenFood from './components/ListOfEatenFood.vue'
 import AddEatenFood from './components/AddEatenFood.vue'
 import Setting from './components/Setting.vue'
+import Welcome from './components/Welcome.vue'
+
 const routes = [
+  { path: '/Welcome', component: Welcome },
   { path: '/ListOfFood', component: ListOfFood },
   { path: '/ListOfEatenFood', component: ListOfEatenFood },
   { path: '/AddEatenFood', component: AddEatenFood },

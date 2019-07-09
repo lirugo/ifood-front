@@ -5,7 +5,12 @@
         <v-flex>
           <Menu/>
 
-          <router-view></router-view>
+          <transition
+                  name="fade"
+                  mode="out-in"
+          >
+            <router-view></router-view>
+          </transition>
 
         </v-flex>
       </v-layout>
@@ -14,25 +19,26 @@
 </template>
 
 <script>
-  import ListOfEatenFood from './components/ListOfEatenFood.vue'
   import Menu from './components/Menu.vue'
 
   export default {
     name: 'app',
     components: {
-      ListOfEatenFood,
       Menu
     }
   }
 </script>
 
 <style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+  .fade-enter-active,
+  .fade-leave-active {
+    transition-duration: 0.3s;
+    transition-property: opacity;
+    transition-timing-function: ease;
+  }
+
+  .fade-enter,
+  .fade-leave-active {
+    opacity: 0
   }
 </style>
