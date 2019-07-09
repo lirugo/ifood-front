@@ -1,5 +1,5 @@
 <template xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
-  <v-toolbar class="elevation-0" color="grey lighten-5">
+  <v-toolbar class="elevation-0" color="grey lighten-5 mb-4">
       <v-tooltip bottom>
           <template v-slot:activator="{ on }">
               <v-btn outline label color="grey" class="pa-0" small fab v-on="on">120</v-btn>
