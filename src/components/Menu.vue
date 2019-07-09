@@ -27,7 +27,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
+      <v-btn icon to="/AddEatenFood">
           <v-icon>add</v-icon>
       </v-btn>
       <v-btn icon to="/ListOfFood">
