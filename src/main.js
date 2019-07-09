@@ -13,10 +13,12 @@ Vue.config.productionTip = false
 import ListOfFood from './components/ListOfFood.vue'
 import ListOfEatenFood from './components/ListOfEatenFood.vue'
 import AddEatenFood from './components/AddEatenFood.vue'
+import Setting from './components/Setting.vue'
 const routes = [
   { path: '/ListOfFood', component: ListOfFood },
   { path: '/ListOfEatenFood', component: ListOfEatenFood },
   { path: '/AddEatenFood', component: AddEatenFood },
+  { path: '/Setting', component: Setting },
 ]
 
 const router = new VueRouter({

@@ -1,6 +1,6 @@
 <template xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
   <v-layout row>
-    <v-flex xs12 sm6 offset-sm3>
+    <v-flex xs12 sm12 md6 offset-md3>
       <v-card>
         <v-toolbar color="grey lighten-3" class="elevation-0">
 

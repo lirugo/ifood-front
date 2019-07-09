@@ -69,11 +69,11 @@
               >
                 <template v-slot:items="props">
                   <td>{{ props.item.name }}</td>
-                  <td class="text-xs-right">{{ props.item.calories }}</td>
-                  <td class="text-xs-right">{{ props.item.fat }}</td>
-                  <td class="text-xs-right">{{ props.item.carbs }}</td>
-                  <td class="text-xs-right">{{ props.item.protein }}</td>
-                  <td class="text-xs-right">{{ props.item.weight }}</td>
+                  <td class="text-xs-center">{{ props.item.calories }}</td>
+                  <td class="text-xs-center">{{ props.item.fat }}</td>
+                  <td class="text-xs-center">{{ props.item.carbs }}</td>
+                  <td class="text-xs-center">{{ props.item.protein }}</td>
+                  <td class="text-xs-center">{{ props.item.weight }}</td>
                 </template>
               </v-data-table>
 
@@ -101,11 +101,11 @@
             sortable: false,
             value: 'name',
           },
-          { text: 'Protein', value: 'protein', sortable: false, },
-          { text: 'Carbohydrates', value: 'calories', sortable: false, },
-          { text: 'Fat', value: 'fat', sortable: false, },
-          { text: 'Calories (kcal)', value: 'Calories', sortable: false, },
-          { text: 'Weight', value: 'weight', sortable: false, },
+          { text: 'Protein', value: 'protein', sortable: false, align: 'center',},
+          { text: 'Carbohydrates', value: 'calories', sortable: false, align: 'center',},
+          { text: 'Fat', value: 'fat', sortable: false, align: 'center',},
+          { text: 'Calories (kcal)', value: 'Calories', sortable: false, align: 'center',},
+          { text: 'Weight', value: 'weight', sortable: false, align: 'center',},
         ],
         desserts: [
           {

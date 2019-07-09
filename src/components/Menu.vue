@@ -38,6 +38,10 @@
         <v-icon>assignment</v-icon>
       </v-btn>
 
+      <v-btn icon to="/Setting">
+        <v-icon>settings</v-icon>
+      </v-btn>
+
       <v-spacer></v-spacer>
       <v-tooltip bottom>
           <template v-slot:activator="{ on }">
