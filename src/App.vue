@@ -5,7 +5,7 @@
         <v-flex>
           <Menu/>
 
-          <HelloWorld msg="Welcome to Your Vue.js App"/>
+          <ListOfEat/>
 
         </v-flex>
       </v-layout>
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld.vue'
+  import ListOfEat from './components/ListOfEat.vue'
   import Menu from './components/Menu.vue'
 
   export default {
     name: 'app',
     components: {
-      HelloWorld,
+      ListOfEat,
       Menu
     }
   }
