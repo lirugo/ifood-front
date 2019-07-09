@@ -29,13 +29,13 @@
               </v-tooltip>
               <v-tooltip bottom>
                 <template v-slot:activator="{ on }">
-                  <v-btn outline label color="green" class="pa-0" small fab v-on="on">120</v-btn>
+                  <v-btn outline label color="red" class="pa-0" small fab v-on="on">330</v-btn>
                 </template>
                 <span>Fat</span>
               </v-tooltip>
               <v-tooltip bottom>
                 <template v-slot:activator="{ on }">
-                  <v-btn outline label color="green" class="pa-0" small fab v-on="on">120</v-btn>
+                  <v-btn outline label color="orange" class="pa-0" small fab v-on="on">220</v-btn>
                 </template>
                 <span>Carbohydrates</span>
               </v-tooltip>

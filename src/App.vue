@@ -5,7 +5,7 @@
         <v-flex>
           <Menu/>
 
-          <ListOfEat/>
+          <router-view></router-view>
 
         </v-flex>
       </v-layout>
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-  import ListOfEat from './components/ListOfEat.vue'
+  import ListOfEatenFood from './components/ListOfEatenFood.vue'
   import Menu from './components/Menu.vue'
 
   export default {
     name: 'app',
     components: {
-      ListOfEat,
+      ListOfEatenFood,
       Menu
     }
   }
